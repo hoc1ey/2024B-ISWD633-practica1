@@ -38,8 +38,23 @@ docker.io/library/hello-world:latest
 **¿Qué es nginx**
 # COMPLETAR 
 
-Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+Descargar la imagen  **nginx** en la versión **alpine**  
+```docker pull nginx:alpine```  
+Salida:  
+```
+alpine: Pulling from library/nginx
+43c4264eed91: Download complete
+fd072e74e282: Download complete
+596d53a7de88: Download complete
+379754eea6a7: Download complete
+472934715761: Download complete
+45eb579d59b2: Download complete
+f99ac9ba1313: Download complete
+d1171b13e412: Download complete
+Digest: sha256:2140dad235c130ac861018a4e13a6bc8aea3a35f3a40e20c1b060d51a7efd250
+Status: Downloaded newer image for nginx:alpine
+docker.io/library/nginx:alpine
+```
 
 ### Listar imágenes
 
