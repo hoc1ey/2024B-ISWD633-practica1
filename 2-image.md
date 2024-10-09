@@ -60,9 +60,9 @@ docker.io/library/nginx:alpine
 
 ```
 docker images
-```
+```  
 
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+![Imagen y contenedores](img/idocker images.PNG)  
 
 **Identificadores**
 
