@@ -23,9 +23,9 @@ Una imagen puede tener la etiqueta latest para representar la última versión, 
 docker pull <nombre imagen>:<tag>
 ```
 
-Descargar la imagen **hello-world**
-```docker pull hello-world```
-Salida:
+Descargar la imagen **hello-world**  
+```docker pull hello-world```  
+Salida:  
 ```
 Using default tag: latest
 latest: Pulling from library/hello-world
@@ -33,7 +33,7 @@ c1ec31eb5944: Download complete
 Digest: sha256:91fb4b041da273d5a3273b6d587d62d518300a6ad268b28628f74997b93171b2
 Status: Downloaded newer image for hello-world:latest
 docker.io/library/hello-world:latest
-```
+```  
 
 **¿Qué es nginx**
 # COMPLETAR 
