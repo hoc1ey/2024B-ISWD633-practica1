@@ -62,7 +62,7 @@ docker.io/library/nginx:alpine
 docker images
 ```  
 
-![Imagen y contenedores](img/idocker images.PNG)  
+![Imagen y contenedores](img/docker images.PNG)  
 
 **Identificadores**
 
