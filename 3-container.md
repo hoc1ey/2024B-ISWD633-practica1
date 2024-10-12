@@ -98,5 +98,5 @@ Verificar que el contenedor que se eliminó
 
 ### Para inspecionar un contenedor 
 
-Inspeccionar el contenedor **srv-web** 
-# COMPLETAR
+Inspeccionar el contenedor **srv-web**  
+````docker inspect srv-web````
