@@ -27,7 +27,7 @@ Descargar la imagen **hello-world**
 ```docker pull hello-world```  
 
 **¿Qué es nginx**
-# COMPLETAR 
+NGINX es un servidor web que también actúa como proxy de correo electróncio, proxy inverso y balanceador de carga.
 
 Descargar la imagen  **nginx** en la versión **alpine**  
 ```docker pull nginx:alpine```  
@@ -58,7 +58,8 @@ docker inspect hello-world
 ```
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+```` "Id": "sha256:d211f485f2dd1dee407a80973c8f129f00d54604d2c90732e8e320e5038a0348" ````
+La salida muestra que el algoritmo con el que se genera el ID de la imagen es **SHA-256**, que toma como entrada los metadatos de la imagen, configuración y el contenido de las capas, y genera una cadena única de 64 caracteres que representa la imagen en su totalidad.
 
 ### Filtrar imágenes
 
