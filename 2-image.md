@@ -5,7 +5,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor?  
 
-La relación radica en que una imagen es una plantilla de solo lectura con todo lo necesario para ejecutar una aplicación. Un contenedor es una instancia de esa imagen en ejecución, con su propio entorno y la capacidad de realizar cambios. Por lo qué, **la imagen es la plantilla que define lo que el contenedor va a ejecutar**
+La relación radica en que una imagen es una plantilla de solo lectura con todo lo necesario para ejecutar una aplicación. Un contenedor es una instancia de esa imagen en ejecución, con su propio entorno y la capacidad de realizar cambios. Por lo qué, **la imagen es la plantilla que define lo que el contenedor va a ejecutar**.
 
 
 ![Imagen y contenedores](img/imagenContenedores.JPG)
@@ -60,7 +60,8 @@ Inspeccionar la imagen hello-world
 docker inspect hello-world
 ```
 
-**¿Con qué algoritmo se está generando el ID de la imagen**
+**¿Con qué algoritmo se está generando el ID de la imagen** 
+
 ```` "Id": "sha256:d211f485f2dd1dee407a80973c8f129f00d54604d2c90732e8e320e5038a0348" ````
 La salida muestra que el algoritmo con el que se genera el ID de la imagen es **SHA-256**, que toma como entrada los metadatos de la imagen, configuración y el contenido de las capas, y genera una cadena única de 64 caracteres que representa la imagen en su totalidad.
 
