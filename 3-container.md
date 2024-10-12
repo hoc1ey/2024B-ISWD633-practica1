@@ -66,30 +66,35 @@ Cuando un contenedor se ejecuta en segundo plano, Docker devuelve el control al 
 ```
 docker run -d --name <nombre contenedor> <nombre imagen>:tag
 ```
-Crear y ejecutar inmediatamente el contenedor **srv-web3** en modo detach usando la imagen nginx:alpine
-# COMPLETAR
+Crear y ejecutar inmediatamente el contenedor **srv-web3** en modo detach usando la imagen nginx:alpine  
+
+````docker run -d --name srv-web3 nginx:alpine````
 
 ### Para eliminar un contenedor
 
 ```
 docker rm <nombre contenedor>
 ```
-Eliminar el contenedor que se creó a partir de la imagen hello-world 
-# COMPLETAR
+Eliminar el contenedor que se creó a partir de la imagen hello-world  
 
-Verificar que el contenedor que se eliminó
-# COMPLETAR
+````docker rm jovial_engelbart````
+
+Verificar que el contenedor que se eliminó  
+
+````docker ps -a````
 
 ### Para eliminar un contenedor que esté ejecutándose
 
 ```
 docker rm -f <nombre contenedor>
 ```
-Eliminar el contenedor **srv-web3** 
-# COMPLETAR
+Eliminar el contenedor **srv-web3**  
 
-Verificar que el contenedor que se eliminó
-# COMPLETAR
+````docker rm -f srv-web3````
+
+Verificar que el contenedor que se eliminó  
+
+````docker ps````
 
 ### Para inspecionar un contenedor 
 
