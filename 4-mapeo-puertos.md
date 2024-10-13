@@ -22,6 +22,7 @@ Crear un contenedor a partir de la imagen nginx version alpine con el mapeo de p
 docker run -d --name <nombre contenedor> -p <puerto host 01>:<puerto contenedor 01> -p <puerto host 02>:<puerto contenedor 02> <nombre imagen>:<tag>
 ```
 
-Crear un contenedor a partir de la imagen rabbitmq version management-alpine, para este mapeo de puertos usar en el host los mismos puertos del contenedor.
-# COMPLETAR
+Crear un contenedor a partir de la imagen rabbitmq version management-alpine, para este mapeo de puertos usar en el host los mismos puertos del contenedor.  
+
+````docker run -d -p 5672:5672 rabbitmq:management-alpine````
 
