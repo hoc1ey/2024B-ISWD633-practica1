@@ -14,7 +14,7 @@ Crear un contenedor a partir de la imagen nginx version alpine con el mapeo de p
 
 ````docker run -d -p 3000:80 nginx:alpine````  
 
-![Image](img/localhost.png)
+![Image](img/localhost3000.png)
 
 ### Para mapear más de un puerto
 
